@@ -1,0 +1,29 @@
+{
+  "name": "wechat-sdk-gen",
+  "version": "1.0.5",
+  "description": "use wechat-sdk-gen to generate access_token and signature support",
+  "main": "index.js",
+  "bin": {
+    "wsg": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "wechat",
+    "jsapi"
+  ],
+  "git":"https://github.com/xulayen/wechat-sdk-gen.git",
+  "author": "xulayen",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "node-cache": "^4.1.1",
+    "package": "^1.0.1",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "sha1": "^1.1.1",
+    "shelljs": "^0.7.8"
+  }
+}
